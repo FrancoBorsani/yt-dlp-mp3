@@ -1,6 +1,7 @@
 # yt-dlp-mp3
 
 Software que utiliza el paquete "yt_dlp" e integra "ffmpeg" para convertir a .mp3 los recursos obtenidos.
+Se incluye un setup para poder generar un archivo ejecutable y que el programa pueda ser utilizado desde cualquier equipo.
 
 Para generar el ejecutable para cualquier usuario se utilizó el biblioteca "cx_Freeze". La misma integra la herramienta "ffmpeg" para que no haga falta tenerla instalada.
 
@@ -11,7 +12,7 @@ Para generar el ejecutable para cualquier usuario se utilizó el biblioteca "cx_
 python build_setup.py build
 ```
 
-> [!Iibrerías]
+> [!Important]
 > Paquetes utilizados para el desarrollo.
 
 ```
